@@ -1,5 +1,5 @@
 # custom.py
-# command line: scons platform=web target=template_release
+# command line: scons platform=web target=template_release threads=no profile=customs.py
 
 # run this every time after opening terminal
 # emsdk_env.bat
@@ -12,7 +12,7 @@ tools="no"
 lto="full"
 optimize="size"
 module_text_server_adv_enabled="yes"
-module_text_server_fb_enabled="yes"
+module_text_server_fb_enabled="no"
 disable_3d="yes"
 disable_advanced_gui="no"
 
