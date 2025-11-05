@@ -1,5 +1,5 @@
 # custom.py
-# command line: scons platform=web target=template_release threads=no profile=customs.py
+# command line: scons platform=web target=template_release threads=no profile=custom.py build_profile=custom.build
 
 # run this every time after opening terminal
 # emsdk_env.bat
@@ -19,6 +19,7 @@ disable_advanced_gui="no"
 # options
 deprecated="no"
 minizip="no"
+brotli="no"
 vulkan="no"
 use_volk="no"
 
@@ -37,6 +38,7 @@ module_mobile_vr_enabled = "no"
 module_multiplayer_enabled = "no"
 module_navigation_enabled = "no"
 module_noise_enabled = "no"
+module_ogg_enabled = "no"
 module_openxr_enabled = "no"
 module_raycast_enabled = "no"
 module_squish_enabled = "no"
@@ -44,6 +46,8 @@ module_tga_enabled = "no"
 module_theora_enabled = "no"
 module_upnp_enabled = "no"
 module_vhacd_enabled = "no"
+module_vorbis_enabled = "no"
 module_webrtc_enabled = "no"
 module_websocket_enabled = "no"
 module_webxr_enabled = "no"
+module_zip_enabled = "no"
