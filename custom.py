@@ -4,7 +4,9 @@
 # command line: scons platform=web target=template_release threads=no
 
 # run this every time after opening terminal
-# Emscripten/emsdk/emsdk_env.bat
+# cd Emscripten/emsdk
+# emsdk_env.bat
+# cd ../..
 
 # # base
 # debug_symbols="no"
@@ -244,10 +246,14 @@ summary: adding some shit back
 - bring back all buttons
 - tab, seperator, split
 
-final_4 - 
+final_4 - 24.8 MB
 summary: moving more shit around
 - remove input event joypad button + motion
 - remove input event midi
 - bring back the following: scroll container, split container, sub viewport container, tab container, scroll bar, slider
+
+final_5 - 24.8 MB
+summary: re-enable timer node
+- bring back timer node
 
 """
